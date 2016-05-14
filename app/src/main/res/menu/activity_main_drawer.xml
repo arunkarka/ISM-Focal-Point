@@ -3,21 +3,37 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="@string/home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_about_us"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="@string/about_us" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_services"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="@string/services" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_media_reviews"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="@string/media_reviews" />
+        <item
+            android:id="@+id/nav_photo_gallery"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/photo_gallery" />
+        <item
+            android:id="@+id/nav_testimonials"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/testimonials" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/frequently_asked_questions" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/contact_us" />
     </group>
 
     <item android:title="Communicate">

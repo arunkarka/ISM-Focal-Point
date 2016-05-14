@@ -5,5 +5,14 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    // Navigation bar strings
+    <string name="home">Home</string>
+    <string name="about_us">About Us</string>
+    <string name="services">Services</string>
+    <string name="media_reviews">Media Reviews</string>
+    <string name="photo_gallery">Photo Gallery</string>
+    <string name="testimonials">Testimonials</string>
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
     <string name="contact_us">Contact Us</string>
 </resources>
