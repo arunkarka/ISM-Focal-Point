@@ -20,6 +20,7 @@ import com.arun.com.ismfocalpoint.fragments.AboutFragment;
 import com.arun.com.ismfocalpoint.fragments.ContactFragment;
 import com.arun.com.ismfocalpoint.fragments.HomeFragment;
 import com.arun.com.ismfocalpoint.fragments.MediaReviewsFragment;
+import com.arun.com.ismfocalpoint.fragments.PhotoGalleryFragment;
 import com.arun.com.ismfocalpoint.fragments.ServicesFragment;
 
 public class MainActivity extends AppCompatActivity
@@ -28,7 +29,9 @@ public class MainActivity extends AppCompatActivity
         ContactFragment.OnFragmentInteractionListener,
         AboutFragment.OnFragmentInteractionListener,
         ServicesFragment.OnFragmentInteractionListener,
-        MediaReviewsFragment.OnFragmentInteractionListener{
+        MediaReviewsFragment.OnFragmentInteractionListener,
+        PhotoGalleryFragment.OnFragmentInteractionListener
+        {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -110,6 +113,10 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_media_reviews:
                 fragment = new MediaReviewsFragment();
                 break;
+            case R.id.nav_photo_gallery:
+                fragment = new PhotoGalleryFragment();
+                break;
+
 
         }
 
