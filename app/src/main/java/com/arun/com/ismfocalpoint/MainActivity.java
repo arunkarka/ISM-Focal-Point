@@ -18,6 +18,7 @@ import android.view.View;
 
 import com.arun.com.ismfocalpoint.fragments.AboutFragment;
 import com.arun.com.ismfocalpoint.fragments.ContactFragment;
+import com.arun.com.ismfocalpoint.fragments.FaqFragment;
 import com.arun.com.ismfocalpoint.fragments.HomeFragment;
 import com.arun.com.ismfocalpoint.fragments.MediaReviewsFragment;
 import com.arun.com.ismfocalpoint.fragments.PhotoGalleryFragment;
@@ -32,7 +33,8 @@ public class MainActivity extends AppCompatActivity
         ServicesFragment.OnFragmentInteractionListener,
         MediaReviewsFragment.OnFragmentInteractionListener,
         PhotoGalleryFragment.OnFragmentInteractionListener,
-        TestimonialsFragment.OnFragmentInteractionListener
+        TestimonialsFragment.OnFragmentInteractionListener,
+        FaqFragment.OnFragmentInteractionListener
         {
 
     @Override
@@ -120,6 +122,9 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.nav_testimonials:
                 fragment = new TestimonialsFragment();
+                break;
+            case R.id.nav_faq:
+                fragment = new FaqFragment();
                 break;
 
 
