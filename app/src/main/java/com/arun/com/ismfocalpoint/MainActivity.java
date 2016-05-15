@@ -16,13 +16,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.arun.com.ismfocalpoint.fragments.AboutFragment;
 import com.arun.com.ismfocalpoint.fragments.ContactFragment;
 import com.arun.com.ismfocalpoint.fragments.HomeFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
         HomeFragment.OnFragmentInteractionListener,
-        ContactFragment.OnFragmentInteractionListener{
+        ContactFragment.OnFragmentInteractionListener,
+        AboutFragment.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,6 +96,9 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.nav_contact_us:
                 fragment = new ContactFragment();
+                break;
+            case R.id.nav_about_us:
+                fragment = new AboutFragment();
                 break;
 
         }
