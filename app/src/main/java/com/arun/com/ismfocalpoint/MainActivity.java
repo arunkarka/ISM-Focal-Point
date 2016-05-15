@@ -19,12 +19,14 @@ import android.view.View;
 import com.arun.com.ismfocalpoint.fragments.AboutFragment;
 import com.arun.com.ismfocalpoint.fragments.ContactFragment;
 import com.arun.com.ismfocalpoint.fragments.HomeFragment;
+import com.arun.com.ismfocalpoint.fragments.ServicesFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
         HomeFragment.OnFragmentInteractionListener,
         ContactFragment.OnFragmentInteractionListener,
-        AboutFragment.OnFragmentInteractionListener{
+        AboutFragment.OnFragmentInteractionListener,
+        ServicesFragment.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -99,6 +101,9 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.nav_about_us:
                 fragment = new AboutFragment();
+                break;
+            case R.id.nav_services:
+                fragment = new ServicesFragment();
                 break;
 
         }
