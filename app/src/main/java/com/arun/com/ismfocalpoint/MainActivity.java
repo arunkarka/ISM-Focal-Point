@@ -105,9 +105,6 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_home:
                 fragment = new HomeFragment();
                 break;
-            case R.id.nav_contact_us:
-                fragment = new ContactFragment();
-                break;
             case R.id.nav_about_us:
                 fragment = new AboutFragment();
                 break;
@@ -126,34 +123,14 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_faq:
                 fragment = new FaqFragment();
                 break;
-
-
-
-        }
-
-        if (id == R.id.nav_home) {
-
-        } else if (id == R.id.nav_about_us) {
-
-        } else if (id == R.id.nav_services) {
-
-        } else if (id == R.id.nav_media_reviews) {
-
-        } else if (id == R.id.nav_photo_gallery) {
-
-        } else if (id == R.id.nav_testimonials) {
-
-        }else if (id == R.id.nav_faq) {
-
-        } else if (id == R.id.nav_contact_us) {
-
+            case R.id.nav_contact_us:
+                fragment = new ContactFragment();
+                break;
         }
         if (fragment != null) {
             FragmentManager fragmentManager = getSupportFragmentManager();
             fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
         }
-
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
