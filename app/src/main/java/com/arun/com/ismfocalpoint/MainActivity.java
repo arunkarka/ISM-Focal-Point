@@ -22,6 +22,7 @@ import com.arun.com.ismfocalpoint.fragments.HomeFragment;
 import com.arun.com.ismfocalpoint.fragments.MediaReviewsFragment;
 import com.arun.com.ismfocalpoint.fragments.PhotoGalleryFragment;
 import com.arun.com.ismfocalpoint.fragments.ServicesFragment;
+import com.arun.com.ismfocalpoint.fragments.TestimonialsFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
@@ -30,7 +31,8 @@ public class MainActivity extends AppCompatActivity
         AboutFragment.OnFragmentInteractionListener,
         ServicesFragment.OnFragmentInteractionListener,
         MediaReviewsFragment.OnFragmentInteractionListener,
-        PhotoGalleryFragment.OnFragmentInteractionListener
+        PhotoGalleryFragment.OnFragmentInteractionListener,
+        TestimonialsFragment.OnFragmentInteractionListener
         {
 
     @Override
@@ -116,6 +118,10 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_photo_gallery:
                 fragment = new PhotoGalleryFragment();
                 break;
+            case R.id.nav_testimonials:
+                fragment = new TestimonialsFragment();
+                break;
+
 
 
         }
