@@ -19,6 +19,7 @@ import android.view.View;
 import com.arun.com.ismfocalpoint.fragments.AboutFragment;
 import com.arun.com.ismfocalpoint.fragments.ContactFragment;
 import com.arun.com.ismfocalpoint.fragments.HomeFragment;
+import com.arun.com.ismfocalpoint.fragments.MediaReviewsFragment;
 import com.arun.com.ismfocalpoint.fragments.ServicesFragment;
 
 public class MainActivity extends AppCompatActivity
@@ -26,7 +27,8 @@ public class MainActivity extends AppCompatActivity
         HomeFragment.OnFragmentInteractionListener,
         ContactFragment.OnFragmentInteractionListener,
         AboutFragment.OnFragmentInteractionListener,
-        ServicesFragment.OnFragmentInteractionListener{
+        ServicesFragment.OnFragmentInteractionListener,
+        MediaReviewsFragment.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -104,6 +106,9 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.nav_services:
                 fragment = new ServicesFragment();
+                break;
+            case R.id.nav_media_reviews:
+                fragment = new MediaReviewsFragment();
                 break;
 
         }
