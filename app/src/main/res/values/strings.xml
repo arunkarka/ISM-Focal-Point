@@ -16,7 +16,6 @@
     <string name="testimonials">Testimonials</string>
     <string name="frequently_asked_questions">Frequently Asked Questions</string>
     <string name="contact_us">Contact Us</string>
-    <string name="headoffice_india">ISMIUK Head Office - India</string>
     <string name="home_info">	The ISM Focal Point (P) Ltd. has been established in the year 2005 with dynamic management with an AIM TO MAKE MEDICAL EDUCATION TO OUR INDIAN STUDENTS that to from middle class families. Who has an ambition and dreams to become a doctor. A sour quality of service idle help desk system to student with expertised counseling organizing several educational seminars in with faculties and international educational managers from overseas, conduct interview and offer on the spot admissions to eligible candidates as per norms.</string>
     <string name="about_info"><b>The ISM Focal Point (P) Ltd.</b> has been established in the year 2005 with dynamic management with an AIM TO MAKE MEDICAL EDUCATION TO OUR INDIAN STUDENTS that to from middle class families. Who has an ambition and dreams to become a doctor. A sour quality of service idle help desk system to student with expertised counseling organizing several educational seminars in with faculties and international educational managers from overseas, conduct interview and offer on the spot admissions to eligible candidates as per norms of Medical Council of India (MCI).
 ISM Focal Point is the direct admissions co-coordinating office of international university Kyrgyzstan for entire India situated at Hyderabad, Andhra Pradesh. This university has lowest fee package and better education standards for medical degree. We are giving more services at university campus and also we providing Indian food special Andhra Mess with south Indian chefs. We organizing visits in the hostel rooms every day, providing students progress and attendance data to the parents which can able the students time to time so that they will not diverse wide from education.
@@ -86,6 +85,27 @@ ISM Focal Point will help in providing Air tickets with discounted rates to stud
 
 Ensuring the safety and security of all candidates by recruiting ISM Focal Point personnel to coordinate the process from admission to travel Kyrgyzstan
     </string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Contact Page content -->
+    <string name="ism_name">ISM Focal Point Pvt. Ltd.</string>
+    <string name="ism_address_delhi">
+        C-93 Anand Niketan \n
+        New Delhi \n
+        Phone:+91 11 32048002 (India) \n
+        Mobile: +91 98996 1177791 (India), \n
+             +91 93110 50732, 9311150732 (India)\n
+        E-mail : ismfocalpoint@yahoo.in
+    </string>
+    <string name="corporate_office_hyd">Corporate Office - Hyderabad, Telangana</string>
+    <string name="ism_address_hyd">
+        303, Manjeera Plaza \n
+        Opp: Passport Office \n
+        Near Matyrivanam \n
+        Ameerpet, \n
+        Hyderabad - 16. A.P., INDIA. \n
+         	Ph : +91-40-66639020 \n
+        Fax : +91-40-23730770 \n
+        Mob : +91-9494851010,9394641010 \n
+ 	    e-mail : ismfocalpoint@yahoo.in \n
+ 	            ismfocalpointhyd@gmail.com \n
+    </string>
 </resources>

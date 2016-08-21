@@ -24,6 +24,5 @@
         <item name="android:textColor">@color/materialGray</item>
         <item name="android:typeface">monospace</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:background">#BDC3C7</item>
     </style>
 </resources>
