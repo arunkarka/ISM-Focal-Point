@@ -90,6 +90,8 @@ public class MainActivity extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+        } else if (id == R.id.action_call) {
+            dialPhoneNumber("+919394641010");
         }
 
         return super.onOptionsItemSelected(item);
@@ -150,4 +152,13 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         }
     }
-}
+
+    public void dialPhoneNumber(String phoneNumber) {
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:" + phoneNumber));
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
+    }
+
+        }
