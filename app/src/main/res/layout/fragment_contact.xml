@@ -1,13 +1,32 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.arun.com.ismfocalpoint.fragments.ContactFragment">
+    tools:context="com.arun.com.ismfocalpoint.fragments.ContactFragment"
+    android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
+        style="@style/SideHeading"
+        android:text="International School of Medicine"
+        />
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="contact fragment" />
-
-</FrameLayout>
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:text="Bishkek, Kyrgyzstan, 720001 Turusbekova 88/1
+        Phone: (0996 312) 610193
+        Fax: (0996 312) 613718
+        e-mail: ism@ismiuk.com, hismiuk@ismiuk.com
+        http://www.ismiuk.com"/>
+    <TextView
+        style="@style/SideHeading"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:layout_gravity="bottom"
+        android:text= "@string/headoffice_india"
+        />
+</LinearLayout>

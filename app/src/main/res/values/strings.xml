@@ -5,6 +5,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="scroller">Scroller_id</string>
 
     // Navigation bar strings
     <string name="home">Home</string>
@@ -15,7 +16,76 @@
     <string name="testimonials">Testimonials</string>
     <string name="frequently_asked_questions">Frequently Asked Questions</string>
     <string name="contact_us">Contact Us</string>
+    <string name="headoffice_india">ISMIUK Head Office - India</string>
+    <string name="home_info">	The ISM Focal Point (P) Ltd. has been established in the year 2005 with dynamic management with an AIM TO MAKE MEDICAL EDUCATION TO OUR INDIAN STUDENTS that to from middle class families. Who has an ambition and dreams to become a doctor. A sour quality of service idle help desk system to student with expertised counseling organizing several educational seminars in with faculties and international educational managers from overseas, conduct interview and offer on the spot admissions to eligible candidates as per norms.</string>
+    <string name="about_info"><b>The ISM Focal Point (P) Ltd.</b> has been established in the year 2005 with dynamic management with an AIM TO MAKE MEDICAL EDUCATION TO OUR INDIAN STUDENTS that to from middle class families. Who has an ambition and dreams to become a doctor. A sour quality of service idle help desk system to student with expertised counseling organizing several educational seminars in with faculties and international educational managers from overseas, conduct interview and offer on the spot admissions to eligible candidates as per norms of Medical Council of India (MCI).
+ISM Focal Point is the direct admissions co-coordinating office of international university Kyrgyzstan for entire India situated at Hyderabad, Andhra Pradesh. This university has lowest fee package and better education standards for medical degree. We are giving more services at university campus and also we providing Indian food special Andhra Mess with south Indian chefs. We organizing visits in the hostel rooms every day, providing students progress and attendance data to the parents which can able the students time to time so that they will not diverse wide from education.
 
+We are also providing and giving more consternation on medical council of India screening test coaching with well qualified and well experienced Indian FMG Professors at our campus. Which resulted, that university doctors has succeeded the MCI Test with at most success rate nearly 47% during September 2010 all these efforts are coming fruitful buyers with the heartful co-operation from our students and parents. We are also in process to create career opportunities to our ISM-IUK doctors as soon as there come out from the university to be recruited at whereas corporate hospitals in AP.
+
+The very authentic and specialized preparatory class of MCI Screening Test Modules from our Indian Students regularly for the last three consecutive years while study MBBS in college and this additional preparation make totally sure to the students to pass the test. Successfully and hold the practice of medicine in India apart from these we are also providing the various services.
+
+\n\n<b><font color="blue">Our Mission</font></b> : For those looking for hassle free process of getting foreign education, ISM Focal Point Consultancy” could be the directing force in providing full counseling support to the best of their satisfaction to help them reach the new height in their career through superior education
+
+\n\n<b><font color="blue">Our Philosophy</font></b> : To create an educational but communicative environment so that you always find exactly what you are looking for. “ISM Focal Point Consultancy” aspires to be a creating organization to all its constituents with a personal touch.
+
+</string>
+    <string name="services_info">ISM focal point is leading and fastest developing global education consultants, ISM Focal Point is specialized in offering the most competitive and trustworthy services to the aspiring students aspiring to study Kyrgyzstan.
+ 	Our Services
+
+
+Providing University Information
+
+
+Complete Admission Process (Admission Letter, Students Visa)
+
+
+Assistance on preparation of Physical Examination From on request
+
+
+Filing of students visa application to Embassy
+
+
+Assistance to filling MCI eligibility Certificate
+
+
+Obtain confirmation letter from the college
+
+
+Arrange for travel and stay abroad
+
+
+Provide orientation programs
+
+
+Complete guidance in preparation of admission and visa documentation
+
+
+Assistance in discounted air tickets
+
+
+Complete guidance from home land to university
+
+
+Assistance/ guidance opening in bank account near to university
+
+
+Assistance/ guidance from airport to university
+
+
+Assistance /travel from and to university upto Hyderabad during the vacations.
+
+
+Providing MCI Screening Test Coaching at University campus with well experienced Indian FMG Professors
+  VISA DOCUMENTATION
+ISM Focal Point provides excellent visa documentation for student visa, when a candidate applies for a student visa he/she requires certain documents which has to be presented at the consulate, ISM Focal Point helps the students to prepare all the required documents.
+  APPLICATION FORMS
+ISM Focal Point  helps by providing all the application forms, which are required and will be filled with our supervision
+  Travel Arrangements  Forex
+ISM Focal Point will help in providing Air tickets with discounted rates to students when there is a peek session of students going to study abroad.
+
+Ensuring the safety and security of all candidates by recruiting ISM Focal Point personnel to coordinate the process from admission to travel Kyrgyzstan
+    </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
